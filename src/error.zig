@@ -1,0 +1,15 @@
+pub const Error = error{
+    OpenDatabasePath,
+    EnsureAbsolutePathCwd,
+    EnsureAbsolutePathJoin,
+    CreateFile,
+    RandomNotSet,
+    InsertIdAlreadyExists,
+    InsertOneDiskWrite,
+    OutOfMemory,
+    RandomAlloc,
+    OpenFile,
+    KeyExists,
+    RandomIntKey,
+    TestFailed,
+};
